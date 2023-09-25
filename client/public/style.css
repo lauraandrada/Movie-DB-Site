@@ -1,0 +1,74 @@
+body,
+body *,
+body *::before,
+body *::after {margin:0;padding:0;border:0;background:transparent;box-sizing:border-box;text-decoration:none;outline:none;font-family:inherit;}
+ol, ul, li {list-style:none;display:block;}
+table {border-collapse: collapse;border-spacing:0;}
+a img {border: none;}
+
+input,
+textarea,
+select,
+button,
+input{appearance: none; border-radius: 0;}
+
+button,
+a{cursor: pointer; color: inherit;}
+textarea{resize: none;}
+
+[readonly] + span,
+[readonly]{pointer-events: none; opacity: .4;}
+
+body{
+    overflow-x: hidden;
+    width: 100%; 
+    height: 100%; 
+    background-image: linear-gradient(to bottom right, rgb(146, 246, 59), rgb(5, 135, 26));
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+    width: 100%; 
+    height: 100%; 
+    background-image: linear-gradient(to bottom right, rgb(146, 246, 59), rgb(5, 135, 26));
+    font-family: 'Montserrat', sans-serif;
+}
+
+.movie {
+    padding: 7px;
+    font-family: "Papyrus";
+    font-size: 20px;
+}
+
+div {
+    padding: 3px;
+    font-family: "Georgia", Times, serif;
+
+}
+
+#mainTitle {
+    text-align: center;
+    font-size: 50px;
+    padding: 5px;
+
+} 
+
+#navigation {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 450px;
+    overflow: hidden;
+    font-size: 50px;
+    text-align: center;
+}
+
+ul > li {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
